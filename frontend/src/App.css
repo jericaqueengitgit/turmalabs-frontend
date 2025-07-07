@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+:root {
+  --radius: 0.625rem;
+  /* Turma Labs Brand Colors */
+  --turma-black: #1A1A1A;
+  --turma-beige: #FAF8F2;
+  --turma-orange: #F25C05;
+  
+  --background: #FAF8F2; /* Off White/Beige Background */
+  --foreground: #1A1A1A; /* Black */
+  --card: #FFFFFF;
+  --card-foreground: #1A1A1A;
+  --popover: #FFFFFF;
+  --popover-foreground: #1A1A1A;
+  --primary: #1A1A1A; /* Black */
+  --primary-foreground: #FAF8F2;
+  --secondary: #F5F5F5;
+  --secondary-foreground: #1A1A1A;
+  --muted: #F5F5F5;
+  --muted-foreground: #6B7280;
+  --accent: #F25C05; /* Accent Orange */
+  --accent-foreground: #FFFFFF;
+  --destructive: #EF4444;
+  --border: #E5E7EB;
+  --input: #FFFFFF;
+  --ring: #F25C05;
+  --chart-1: #F25C05;
+  --chart-2: #1A1A1A;
+  --chart-3: #6B7280;
+  --chart-4: #F59E0B;
+  --chart-5: #10B981;
+  --sidebar: #FFFFFF;
+  --sidebar-foreground: #1A1A1A;
+  --sidebar-primary: #1A1A1A;
+  --sidebar-primary-foreground: #FAF8F2;
+  --sidebar-accent: #F25C05;
+  --sidebar-accent-foreground: #FFFFFF;
+  --sidebar-border: #E5E7EB;
+  --sidebar-ring: #F25C05;
+}
+
+.dark {
+  --background: #1A1A1A;
+  --foreground: #FAF8F2;
+  --card: #262626;
+  --card-foreground: #FAF8F2;
+  --popover: #262626;
+  --popover-foreground: #FAF8F2;
+  --primary: #FAF8F2;
+  --primary-foreground: #1A1A1A;
+  --secondary: #404040;
+  --secondary-foreground: #FAF8F2;
+  --muted: #404040;
+  --muted-foreground: #A3A3A3;
+  --accent: #F25C05;
+  --accent-foreground: #FFFFFF;
+  --destructive: #EF4444;
+  --border: #404040;
+  --input: #262626;
+  --ring: #F25C05;
+  --chart-1: #F25C05;
+  --chart-2: #FAF8F2;
+  --chart-3: #A3A3A3;
+  --chart-4: #F59E0B;
+  --chart-5: #10B981;
+  --sidebar: #262626;
+  --sidebar-foreground: #FAF8F2;
+  --sidebar-primary: #F25C05;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #404040;
+  --sidebar-accent-foreground: #FAF8F2;
+  --sidebar-border: #404040;
+  --sidebar-ring: #F25C05;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  }
+}
+
+/* Custom Turma Labs styles */
+.turma-logo {
+  max-height: 40px;
+  width: auto;
+}
+
+.turma-brand-text {
+  color: var(--turma-black);
+  font-weight: 600;
+}
+
+.turma-accent {
+  color: var(--turma-orange);
+}
+
+.turma-bg-accent {
+  background-color: var(--turma-orange);
+}
+
+.turma-border-accent {
+  border-color: var(--turma-orange);
+}
+
+.btn-turma-primary {
+  background-color: var(--turma-black);
+  color: var(--turma-beige);
+  border: 1px solid var(--turma-black);
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-turma-primary:hover {
+  background-color: var(--turma-orange);
+  border-color: var(--turma-orange);
+}
+
+.btn-turma-secondary {
+  background-color: transparent;
+  color: var(--turma-black);
+  border: 1px solid var(--turma-black);
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-turma-secondary:hover {
+  background-color: var(--turma-black);
+  color: var(--turma-beige);
+}
+
+.btn-turma-accent {
+  background-color: var(--turma-orange);
+  color: white;
+  border: 1px solid var(--turma-orange);
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-turma-accent:hover {
+  background-color: #e04d00;
+  border-color: #e04d00;
+}
+

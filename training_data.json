@@ -1,0 +1,143 @@
+[
+    {
+        "title": "Google Workspace Basics – Full Course (4 hrs)",
+        "url": "https://www.youtube.com/watch?v=_oYMrYCs2fU",
+        "category": "Productivity",
+        "skillLevel": "Beginner",
+        "tags": ["gmail", "drive", "sheets"]
+    },
+    {
+        "title": "Google Workspace Tutorial for VAs (Mobile)",
+        "url": "https://www.youtube.com/watch?v=1MEPSDYNGS8",
+        "category": "Productivity",
+        "skillLevel": "Beginner",
+        "tags": ["mobile", "google workspace"]
+    },
+    {
+        "title": "Trello Basics Training – Playlist",
+        "url": "https://www.youtube.com/playlist?list=PLU9ZMRuUFbugS5RN4C3i9gzZD-DrnIjya",
+        "category": "Project Management",
+        "skillLevel": "Beginner",
+        "tags": ["trello", "kanban"]
+    },
+    {
+        "title": "How to Use Trello (2024) – Complete Guide",
+        "url": "https://www.youtube.com/watch?v=S34lZMmTYRA",
+        "category": "Project Management",
+        "skillLevel": "Beginner",
+        "tags": ["trello"]
+    },
+    {
+        "title": "Canva Essentials Course – Design School",
+        "url": "https://www.canva.com/design-school/courses/canva-essentials",
+        "category": "Design & Branding",
+        "skillLevel": "Beginner",
+        "tags": ["canva", "graphics"]
+    },
+    {
+        "title": "HubSpot Academy – Social Media Marketing",
+        "url": "https://academy.hubspot.com/courses/social-media",
+        "category": "Marketing",
+        "skillLevel": "Intermediate",
+        "tags": ["social media", "strategy"]
+    },
+    {
+        "title": "HubSpot Academy – Email Marketing Course",
+        "url": "https://academy.hubspot.com/courses/email-marketing",
+        "category": "Marketing",
+        "skillLevel": "Intermediate",
+        "tags": ["email", "automation"]
+    },
+    {
+        "title": "Zoom for Beginners (2024) – Full Tutorial",
+        "url": "https://www.youtube.com/watch?v=RI08au7DYcI",
+        "category": "Communication",
+        "skillLevel": "Beginner",
+        "tags": ["zoom"]
+    },
+    {
+        "title": "Cybersecurity Awareness Essentials for Employees",
+        "url": "https://www.coursera.org/learn/cybersecurity-awareness-essentials-for-employees",
+        "category": "Security",
+        "skillLevel": "Beginner",
+        "tags": ["security", "remote work"]
+    },
+    {
+        "title": "Time-Management for Remote Workers – HubSpot Blog Lesson",
+        "url": "https://blog.hubspot.com/sales/time-management-tips-remote-work",
+        "category": "Productivity",
+        "skillLevel": "All Levels",
+        "tags": ["time management", "remote"]
+    },
+    {
+        "title": "Asana for Beginners – Project Management Tool Walkthrough",
+        "url": "https://www.youtube.com/watch?v=ld0z9pAvf9c",
+        "category": "Project Management",
+        "skillLevel": "Beginner",
+        "tags": ["asana", "task tracking", "remote team"]
+    },
+    {
+        "title": "Slack Essentials – How to Communicate Effectively",
+        "url": "https://www.youtube.com/watch?v=9RJZMSsH7-g",
+        "category": "Communication",
+        "skillLevel": "Beginner",
+        "tags": ["slack", "chat", "remote"]
+    },
+    {
+        "title": "Calendly Tutorial – How to Automate Scheduling",
+        "url": "https://www.youtube.com/watch?v=E3v-YJ0pI70",
+        "category": "Productivity",
+        "skillLevel": "Beginner",
+        "tags": ["calendar", "automation", "meetings"]
+    },
+    {
+        "title": "Google Calendar Tips – Manage Your Time Like a Pro",
+        "url": "https://www.youtube.com/watch?v=QzL_nMf5l9U",
+        "category": "Productivity",
+        "skillLevel": "Beginner",
+        "tags": ["calendar", "time management"]
+    },
+    {
+        "title": "Grammarly for VAs – Write Better Emails, Faster",
+        "url": "https://www.youtube.com/watch?v=1z7wRB8hfHc",
+        "category": "Writing & Editing",
+        "skillLevel": "Beginner",
+        "tags": ["email", "grammar", "tools"]
+    },
+    {
+        "title": "Google Sheets for Beginners – Full Crash Course",
+        "url": "https://www.youtube.com/watch?v=0kvZopKFi9w",
+        "category": "Spreadsheets",
+        "skillLevel": "Beginner",
+        "tags": ["sheets", "excel", "data entry"]
+    },
+    {
+        "title": "How to Be a Top Performing VA – Interview with Expert VA Coach",
+        "url": "https://www.youtube.com/watch?v=JlvLbZSrIXs",
+        "category": "VA Mindset & Performance",
+        "skillLevel": "All Levels",
+        "tags": ["success", "VA career", "motivation"]
+    },
+    {
+        "title": "Zapier for Beginners – Automate Your VA Workflow",
+        "url": "https://www.youtube.com/watch?v=qPYcA2Nabdc",
+        "category": "Automation",
+        "skillLevel": "Intermediate",
+        "tags": ["zapier", "automation", "productivity"]
+    },
+    {
+        "title": "LinkedIn Profile Optimization for Admins and VAs",
+        "url": "https://www.youtube.com/watch?v=AMwm8rcdX-s",
+        "category": "Professional Branding",
+        "skillLevel": "Beginner",
+        "tags": ["linkedin", "profile", "freelancing"]
+    },
+    {
+        "title": "Top 10 Chrome Extensions Every VA Should Use",
+        "url": "https://www.youtube.com/watch?v=LIClNuOxUuA",
+        "category": "Tech Tips",
+        "skillLevel": "All Levels",
+        "tags": ["extensions", "chrome", "tools"]
+    }
+]
+
